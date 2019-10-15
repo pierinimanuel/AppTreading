@@ -7,13 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="461" Width="800">
     <Grid Background="#FF78F38E">
-        <Label x:Name="Lbl_risultato" Content="" HorizontalAlignment="Left" Margin="320,145,0,0" VerticalAlignment="Top" Width="150" FontSize="20" Background="#FFF98714"/>
-        <Button x:Name="Btn_risultato" Content="CLICK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Margin="320,280,0,0" Height="80" FontSize="22" Click="Btn_risultato_Click">
+        <Label x:Name="Lbl_risultato" Content="" HorizontalAlignment="Left" Margin="110,125,0,0" VerticalAlignment="Top" Width="150" FontSize="20" Background="#FFF98714"/>
+        <Button x:Name="Btn_risultato" Content="CLICK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="110,260,0,0" Height="80" FontSize="22" Click="Btn_risultato_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
                     <GradientStop Color="White" Offset="1"/>
                     <GradientStop Color="#FE4275CF" Offset="0.046"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="Lbl_conta" Content="" HorizontalAlignment="Left" Margin="520,125,0,0" VerticalAlignment="Top" Width="150" Height="37" Background="#FFF98714" FontSize="20"/>
+        <Button x:Name="Btn_conta" Content="Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="520,260,0,0" Height="80" Click="Btn_conta_Click" FontSize="20">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFA41348" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
