@@ -24,5 +24,30 @@ namespace App_MultiTreading
         {
             InitializeComponent();
         }
+
+        
+
+        private void NewMethod()
+        {
+            // DoWork();
+            Task.Factory.StartNew(DoWork);
+        }
+
+        private void DoWork()
+        {
+            for (int i = 0; i <= 100000; i++)
+            {
+                for (int j = 0; j <= 100000; j++)
+                {
+
+                }
+            }
+            Dispatcher.Invoke(AggiornamentoInterfaccia);
+        }
+
+        private void AggiornamentoInterfaccia()
+        {
+            Lbl_risultato.Content = "finito";
+        }
     }
 }

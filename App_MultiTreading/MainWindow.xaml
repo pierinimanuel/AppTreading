@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:App_MultiTreading"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="461" Width="800">
+    <Grid Background="#FF78F38E">
+        <Label x:Name="Lbl_risultato" Content="" HorizontalAlignment="Left" Margin="320,145,0,0" VerticalAlignment="Top" Width="150" FontSize="20" Background="#FFF98714"/>
+        <Button x:Name="Btn_risultato" Content="CLICK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="135" Margin="320,280,0,0" Height="80" FontSize="22" Click="Btn_risultato_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FE4275CF" Offset="0.046"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
     </Grid>
 </Window>
