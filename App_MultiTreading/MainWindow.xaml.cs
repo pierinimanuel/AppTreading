@@ -43,6 +43,7 @@ namespace App_MultiTreading
                 }
             }
             Dispatcher.Invoke(AggiornamentoInterfaccia);
+
         }
 
         private void AggiornamentoInterfaccia()
